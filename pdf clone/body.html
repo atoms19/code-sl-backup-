@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Sharp"
+    rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/ripplet.js@1.1.0"></script>
+     
+     
+      <script src="https://cdn.jsdelivr.net/gh/atoms19/dominity.js/Beta/dominityV4.min.js"></script>  
+     
+    </head>
+    <body>
+    
+    <div id="app">
+        <nav class="navbar">
+            <div class="flex-cont">
+            <div class="left">
+                <span class="material-icons icon" onpointerdown="ripplet(arguments[0])" >arrow_back</span>
+        <span class="doc-name">Adobe Scan 23...</span>
+             </div>   
+                <div class="right">
+                    <span class="material-icons-outlined icon " onpointerdown="ripplet(arguments[0])" onclick="new finder('.nav-search').style({opacity:'1',zIndex:'5'})">find_in_page</span>
+                    <span class="material-icons-sharp icon" onpointerdown="ripplet(arguments[0])" onclick="app2.show();new finder('#app').hide()"> add_to_drive 
+                    </span>
+                    <span class="material-icons-sharp icon " onpointerdown="ripplet(arguments[0])" onclick='new finder(".dropdown").style({transform:"translateY(0) translateX(0)",opacity:"1"});dropAct=true'>more_vert
+                    </span>
+                </div>
+            </div>
+            
+            <div class="loader">
+                <div class="loader-part"></div>
+            </div>
+        </nav>
+        <nav class="nav-search">
+            <div class="flex-con">
+                <div class="left">
+                     <span class="material-icons icon" onpointerdown="ripplet(arguments[0])" onclick="new finder('.nav-search').style({opacity:'0',zIndex:'-5'})">arrow_back</span>
+             <input class="search-input" type="text" placeholder="Find..." oninput="readd(new finder(this,true))">    
+                   
+                </div>
+               <div class="right-e">
+                    <span class="search-text">0 of 0</span>
+                    
+                    <span class="material-icons icon" onpointerdown="ripplet(arguments[0])">chevron_left</span>
+                    
+           <span class="material-icons icon" onpointerdown="ripplet(arguments[0])">chevron_right</span>
+                              
+                    
+                </div>  
+                
+            </div>
+        </nav>
+        <nav class="dropdown">
+            <ul>
+                <li onpointerdown="ripplet(arguments[0])">send file...</li>
+                <li onpointerdown="ripplet(arguments[0])">open with...</li>
+                <li onpointerdown="ripplet(arguments[0])">download</li>
+                <li onpointerdown="ripplet(arguments[0])">print</li>
+                <li onpointerdown="ripplet(arguments[0])">report a bug</li>
+            </ul>
+            
+        </nav>
+        
+        
+        
+        
+    <section id="file">
+        <div class="page">
+            
+        </div>
+        
+         <div class="page">
+            
+        </div>
+         <div class="page">
+            
+        </div>
+        
+         <div class="page">
+            
+        </div> 
+       
+    </section>    
+    
+    <section class="loading">
+    
+    <cent>
+        <div class="page-min"></div>
+        <span class="doc-name">Adobe Scan 23--5MB</span>
+        <cent class="loading-text">loading document...</cent>
+        
+</cent>
+    </section>
+    
+    
+    
+    
+    
+    
+        
+        <span class="scroll-info">
+            {{location}}/{{toatal}}
+        </span>
+        
+        <div class="scroll">
+            <span class="material-icons-sharp icon align">unfold_more</span>
+            <span></span>
+        </div>
+        
+    
+        
+        <button class="floating-btn" onpointerdown="ripplet(arguments[0])">
+            <span class="material-icons-outlined icon icon-blue" >edit</span>
+        </button>
+        </div>
+       <div id="app2">
+           <h2 class="heading">save to drive</h2>
+    <label class="drive-label">Document title</label>
+       <input value="Adobe Scan 23 May 2021 (1).pdf" class="drive-input">    
+           
+       <div class="inp-cont">   
+<label class="drive-label">Account</label>
+       <input value="userUnknown@Umail.com" class="normie-input" disabled> 
+       
+       <div class="tri"></div>
+       </div>
+       <div class="inp-cont">
+     <label class="drive-label">Folder</label>
+     <span class="material-icons icon inp-icon">folder</span>
+       <input value="my drive" class="normie-input homie" disabled> 
+       
+    </div>
+       
+       
+       
+       <div class="save-cancel">
+           <span onpointerdown="ripplet(arguments[0])" onclick="hideDrive()">Cancel</span>
+           <span onpointerdown="ripplet(arguments[0])" onclick="saveError(new finder(this,true))">Save</span>
+       </div>             
+           
+           
+       </div>
+        
+    
+        
+    </body>
+</html>
