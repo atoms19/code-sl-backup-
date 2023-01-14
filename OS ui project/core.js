@@ -3,9 +3,9 @@
 /*design copyrights @
 ©©©©©©©©©atoms19 */
  
-alert("this will be my last code on sl 👋, moving away from webdev for now")
-
-
+/*alert("this will be my last code on sl 👋, moving away from webdev for now")
+avoid random nonsensical comments
+*/
 iter=0
 
 class AppWindow{
