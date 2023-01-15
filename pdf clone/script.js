@@ -22,7 +22,7 @@ time taken: approximately 3-4 hrs
 
 
 */
-
+/*
 alert(`buttons that work 
 -search button
 -menu button
@@ -32,7 +32,7 @@ alert(`buttons that work
 `)
 
 alert(`pls comment any details i missed from the orginal app (ui based), i'll give you like storm as reward 😉`)
-
+*/
 
 
 
