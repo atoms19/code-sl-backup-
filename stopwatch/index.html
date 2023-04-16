@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+<section id="app">
+  <p class="location hidden">stop watch @atoms</p>
+  
+  <button class="btn-n" id="examclk">timer</button>
+  <div class="main">
+    <div class="circle">
+  <h1 id="screen" class="main-txt">00:00:00</h1>
+  </div>
+  </div>
+  
+  
+  
+
+  <div id="cntls" class="">
+  
+  <div class="buttons">
+  <button id="startbtn" class="btn start bi-play-fill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+</svg>
+    
+    
+  </button>
+  
+  
+  
+  <button id="resetbtn" class="btn hidden  reset"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+  <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+</svg></button>
+</div>
+</div>
+
+
+</section>
+
+<section id="setup-scrn" class="hidden">
+<div class="promptbox">
+  <input class="inp" value='' type=number placeholder="hours">
+<input class="inp" value='' type=number placeholder="minutes">
+<input  class="inp" value='' type=number placeholder="seconds"/>
+<button class="btn-n tim-s" onclick=timerstart()>start</button>
+
+</div>
+</section>
+
+
+  <!-- Project -->
+  <script src="https://cdn.jsdelivr.net/gh/atoms19/aw-assets/assets/aw-toast.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
