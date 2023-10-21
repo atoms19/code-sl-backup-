@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>title</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/monolith.min.css"/><script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+   <link href="https://cdn.jsdelivr.net/gh/atoms19/ILUS.CSS/ILUS2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css" integrity="sha512-YBSrHBAMjFhWHodf0RF58XB/x9lmuwBtyJv1LWDHQa1nOaWNXfG3Etc/lEXfW+qBx8ne79JnzccDs59je/ccVA==" crossorigin="anonymous" />
+ </head> 
+ <body>
+  <canvas id="whiteboard"></canvas> 
+  <div class="ribbon"> 
+   <span class="ribbon-item bi bi-brush" onclick="toggleBrushMenu()"></span> 
+   <span class="ribbon-item bi bi-arrow-left" onclick="undo()"></span>
+   
+   <div class="pickr-container">
+   <span class="ribbon-item material-icons-outlined" id="color-picker"></span>
+   </div> 
+   
+   <span class="ribbon-item material-icons-outlined bi bi-trash" onclick="clearCanvas()"></span> 
+  </div> 
+  
+  <div class="brush-menu hide">
+      <div class="brush-sz-indicator">
+          <span id="sz-indication"></span>
+      </div>
+      
+      <input class="slider bright" type="range" id="sldr" oninput="updateWidth()" min=1 value=7 max=50>
+      
+  </div>
+  
+ </body>
+</html>
