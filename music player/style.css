@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+
+*{
+    outline:0px solid var(--light);
+}
+body{
+    margin:0;
+    font-family:var(--font);
+margin:0;
+font-weight:300;
+}
+
+
+.body {
+
+display:grid;
+place-items:center;
+
+}
+:root{
+    --theme:#8F8AF8;
+    --light:#6059F5;
+    --font:'Open Sans', sans-serif;
+}
+
+
+
+card{
+    display:block;
+    position:relative;
+    width:80%;
+    padding:0.9rem;
+    border-radius:0.5rem;
+    box-shadow:0 0 5px rgba(0,0,0,0.25);
+    user-select:none;
+    
+}
+music-profile{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:30%;
+    
+}
+flex-cont{
+    display:flex;
+    min-height:5rem;
+    
+}
+flex-cont[type="space-around"]{
+    
+}
+.music-title{
+    margin-bottom:0px;
+    display:block;
+    font-weight:400;
+    font-size:1.2rem;
+}
+.img{
+    width:70px;
+    height:70px;
+    border:2px solid var(--light);
+    border-radius:50%;
+    
+}
+@keyframes border-dance{
+   0%{
+        border:2px solid var(--light);
+    }
+   100%{
+        border:30px solid rgba(97, 89, 245,0.0);
+    }
+   
+}
+.music-btn{
+    font-size:1.8rem;
+    color:var(--theme);
+    margin-right:12px;
+    padding:0.15rem;
+    border-radius:50%;
+    user-select:none;
+    transition:background 0.15s;
+    height:1.95rem;
+}
+.music-btn:active{
+    background:#f4f4f4;
+}
+artist{
+    font-size:0.7rem;
+    display:block;
+    margin-bottom:14px;
+    color:#666;
+}
+controls{
+    width:50%;
+    margin-left:10%;
+}
+status{
+    position:absolute;
+    width:0%;
+    top:0px;
+    background:var(--light);
+    height:5px;
+    left:0;
+    transition:width 1s;
+    border-radius:0px;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    display:block;
+    text-align:center;
+    color:#888;
+    width:100%;
+}
+.music-big{
+    font-size:4rem;
+    margin-top:5rem;
+    color:var(--light);
+    transform:rotateZ(-25deg);
+    user-select:none;
+}
+.pop-card{
+    border-radius:0.5rem !important;
+    font-family:var(--font) !important;
+    
+}
