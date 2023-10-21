@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link  href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Sharp|Material+Icons+Round|Material+Icons+Two+Tone"
+    rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/gh/atoms19/popAlert/popAlert.min.js"></script>
+    
+    </head>
+    <body>
+    <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#6059f588"></stop><stop offset="95%" stop-color="#8f8af888"></stop></linearGradient></defs><path d="M 0,700 C 0,700 0,233 0,233 C 123.00478468899522,258.3397129186603 246.00956937799043,283.6794258373206 332,291 C 417.99043062200957,298.3205741626794 466.96650717703346,287.622009569378 562,290 C 657.0334928229665,292.377990430622 798.1244019138757,307.83253588516754 888,281 C 977.8755980861243,254.16746411483248 1016.5358851674641,185.04784688995215 1100,170 C 1183.4641148325359,154.95215311004785 1311.732057416268,193.97607655502392 1440,233 C 1440,233 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150" transform="rotate(-180 720 350)"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#6059f5ff"></stop><stop offset="95%" stop-color="#8f8af8ff"></stop></linearGradient></defs><path d="M 0,700 C 0,700 0,466 0,466 C 102.89952153110048,473.79904306220095 205.79904306220095,481.5980861244019 311,491 C 416.20095693779905,500.4019138755981 523.7033492822967,511.40669856459334 607,500 C 690.2966507177033,488.59330143540666 749.3875598086124,454.77511961722496 831,462 C 912.6124401913876,469.22488038277504 1016.7464114832535,517.4928229665072 1122,525 C 1227.2535885167465,532.5071770334928 1333.6267942583731,499.2535885167464 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150" transform="rotate(-180 720 350)"></path></svg>
+    
+    <div class="body">
+       <card id="main">
+       <flex-cont>
+           <music-profile>
+               <img class="img" src="" id="music-img">
+           </music-profile>
+           
+           <controls>
+            <a class="music-title" id="music-name"></a>
+            <artist id="music-artist"></artist>
+            
+        <flex-cont type="space-around">
+            <div class="material-icons music-btn" onclick="playPrev()">
+                skip_previous
+            </div>
+               <div class="material-icons music-btn" onclick="playMusic()" id="play-btn">
+                play_arrow
+            </div>
+               <div class="material-icons music-btn" onclick="playNext()">
+                skip_next
+            </div>
+            <div class="material-icons music-btn" onclick="toggleLoop()" id="lp-b">
+            loop
+            </div>
+            
+            
+        </flex-cont>
+            
+            
+           </controls>
+     </flex-cont>      
+           
+           <status id="stat"></status>
+           
+       </card>
+       
+       <div class="material-icons-outlined music-big">music_note</div>
+    </div>  
+    
+    <footer>
+        2021©atoms19
+    </footer>
+    </body>
+</html>
