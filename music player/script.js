@@ -178,7 +178,7 @@ artist:"jjba stardust crusaders"
     
     
 //music array     
-musicArray=[eren,giorno,tanjiro,jotaro,josuke] 
+musicArray=[eren,giorno,tanjiro,jotaro,josuke,interstellar] 
 
 setUpCard(0)   
 
