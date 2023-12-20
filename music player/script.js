@@ -33,7 +33,7 @@ cardArtist=id("music-artist")
 
 setUp()
 
-new Toast("songs wont be loaded since almost all music links are expired","var(--light)",{
+new Toast("welcome to aw music, enjoy handpicked music by aw~ ","var(--light)",{
     closeDelay:10
 })
 
@@ -42,7 +42,7 @@ new Toast("songs wont be loaded since almost all music links are expired","var(-
 
 
 
-pop_alert("this app no longer plays music because dropbox share link has expired 🗿",":( ","sad",false,"var(--light)")
+//pop_alert("this app no longer plays music because dropbox share link has expired 🗿",":( ","sad",false,"var(--light)")
 
 
 });
@@ -174,11 +174,16 @@ artist:"jjba stardust crusaders"
         ,artist:'hanns zimmer'
         
     })
+    lofi=new Music({
+        music:'uc6776d8226e0cd8db15ae62052b.dl.dropboxusercontent.com/cd/0/inline/CJyx3OUH9mhmTpLQ4vv4Zlvkf2_S3M0dMWnEJ8MX5_oJ4Gh6S5r8ol9W6L8tj9L_AC5fsmMgU33kv4z5B4pX1o-_WO330Jq7iqUoMgf-c51HRwM6m99dwlh-2h3q_gD_FIQF6XUl8jlQ3vrCNLoQ926S/file#',
+        img:'https://i.ytimg.com/vi/uHxgR7GzRNY/maxresdefault.jpg'
+        ,name:'lofi chill music'
+        ,artist:'aw-lofi life'})
     
     
     
 //music array     
-musicArray=[eren,giorno,tanjiro,jotaro,josuke,interstellar] 
+musicArray=[eren,tanjiro,jotaro,lofi,interstellar] 
 
 setUpCard(0)   
 
