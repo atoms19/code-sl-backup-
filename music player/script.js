@@ -154,8 +154,8 @@ artist:"jjba stardust crusaders"
     tanjiro=new Music({
         music:"https://dl.dropbox.com/s/qxgfid1lpn0tbu6/gurenge%20%28320%20%20kbps%29.mp3?raw=1",
         name:"gurenge",
-        artist:"demon slayer"
-        ,img:"https://static.wikia.nocookie.net/heros/images/5/5e/Tanjiro_Kamado_Infobox.jpg/revision/latest/top-crop/width/720/height/900?cb=20200807162931&path-prefix=fr"
+        artist:"demon slayer",
+        img:'https://imgs.search.brave.com/5mxyf1GHsUaXD1KRxc6rcv9CUoOWrz8YN18ik2ccLsU/rs:fit:860:0:0/g:ce/aHR0cDovL20uZ2V0/dHl3YWxscGFwZXJz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNS9EZW1v/bi1TbGF5ZXItUGZw/LVByb2ZpbGUuanBn'
         
     })
     
