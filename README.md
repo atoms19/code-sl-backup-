@@ -1,6 +1,6 @@
 # code-sl-backup-
 backing up my very old codes
 <br>
-[music-player](./musicplayer)
-[drawing canvas](./drawingapp)
+[music-player](./music%20player)
+[drawing canvas](./drawing%20app)
 
