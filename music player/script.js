@@ -168,8 +168,8 @@ artist:"jjba stardust crusaders"
         
     })
     interstellar=new Music({
-        music:'https://dl.dropbox.com/s/izk4805xsc733cv21crti/Interstellar-Official-Soundtrack-Cornfield-Chase-Hans-Zimmer-WaterTower.mp3?raw=1'
-        ,img:'',
+        music:'https://uc3d7b58d6a0adbb59d16474fd97.dl.dropboxusercontent.com/cd/0/inline/CJyXgc5SWFAEERIMzhuJB_Rvb2xa5h-kTWJWWGcrTdTBi1-pSlgDKJbCwirhhZo05u469B0TWDWYJUy7DfGSl0q6T_-6-ro14rg7i2HuByT-UPo4EdbBoWKKcviG6s2mcTwd5PQocLo7MVnuvuQwwjuf/file#'
+        ,img:'https://imgs.search.brave.com/7n7i5ywImkPq1U-tx06lV06IGrTdJy0HBWBRLRKu3NE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oZWxp/b3MtaS5tYXNoYWJs/ZS5jb20vaW1hZ2Vy/eS9hcnRpY2xlcy8w/MWcwWEN3YzVCdHBI/elMwSnQ5M2F4TS9p/bWFnZXMtMTMuZmls/bC5zaXplXzIwMDB4/MTc0MS52MTcwMjQw/MTEwNS5qcGc',
         name:'intestellar soundtrack '
         ,artist:'hanns zimmer'
         
