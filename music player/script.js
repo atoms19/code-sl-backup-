@@ -175,7 +175,7 @@ artist:"jjba stardust crusaders"
         
     })
     lofi=new Music({
-        music:'uc6776d8226e0cd8db15ae62052b.dl.dropboxusercontent.com/cd/0/inline/CJyx3OUH9mhmTpLQ4vv4Zlvkf2_S3M0dMWnEJ8MX5_oJ4Gh6S5r8ol9W6L8tj9L_AC5fsmMgU33kv4z5B4pX1o-_WO330Jq7iqUoMgf-c51HRwM6m99dwlh-2h3q_gD_FIQF6XUl8jlQ3vrCNLoQ926S/file#',
+        music:'https://uc6776d8226e0cd8db15ae62052b.dl.dropboxusercontent.com/cd/0/inline/CJyx3OUH9mhmTpLQ4vv4Zlvkf2_S3M0dMWnEJ8MX5_oJ4Gh6S5r8ol9W6L8tj9L_AC5fsmMgU33kv4z5B4pX1o-_WO330Jq7iqUoMgf-c51HRwM6m99dwlh-2h3q_gD_FIQF6XUl8jlQ3vrCNLoQ926S/file#',
         img:'https://i.ytimg.com/vi/uHxgR7GzRNY/maxresdefault.jpg'
         ,name:'lofi chill music'
         ,artist:'aw-lofi life'})
