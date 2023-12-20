@@ -167,6 +167,13 @@ artist:"jjba stardust crusaders"
         
         
     })
+    interstellar=new Music({
+        music:'https://dl.dropbox.com/s/izk4805xsc733cv21crti/Interstellar-Official-Soundtrack-Cornfield-Chase-Hans-Zimmer-WaterTower.mp3?raw=1'
+        ,img:'',
+        name:'intestellar soundtrack '
+        ,artist:'hanns zimmer'
+        
+    })
     
     
     
